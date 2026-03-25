@@ -1,0 +1,12 @@
+[mcp_servers.laravel-boost]
+command = "php"
+args = ["artisan", "boost:mcp"]
+cwd = "/Users/prafful/Herd/url-shortner"
+
+[mcp_servers.herd]
+command = "php"
+args = ["/Applications/Herd.app/Contents/Resources/herd-mcp.phar"]
+cwd = "/Users/prafful/Herd/url-shortner"
+
+[mcp_servers.herd.env]
+SITE_PATH = "/Users/prafful/Herd/url-shortner"
